@@ -1,0 +1,13 @@
+.cardWrapper {
+  background-image: linear-gradient(
+    to right,
+    #fb9039,
+    #fda85d,
+    #febf81,
+    #ffd4a8,
+    #ffe9d0
+  );
+  width: 40vw;
+  height: 80vh;
+  border-radius: 1rem;
+}

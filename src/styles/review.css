@@ -1,0 +1,7 @@
+.reviewContainer  {
+  text-align: left;
+  width: 50vw;
+}
+.reviewContainer > h1 {
+  text-align: center;
+}

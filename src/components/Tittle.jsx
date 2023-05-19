@@ -3,7 +3,9 @@ import React from 'react'
 const Tittle = ({text, color}) => {
 
   return (
-    <p style={{color}}>{text}</p>
+    <div id='titleContainer'>
+      <h1 style={{color}}>{text}</h1>
+    </div>
   )
 }
 
