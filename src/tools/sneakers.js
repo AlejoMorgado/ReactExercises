@@ -1,28 +1,33 @@
+import nike from '../components/images/airmax.jpg'
+import adidas from '../components/images/superstar.jpg'
+import newbalance from '../components/images/574.webp'
+import asics from '../components/images/asics.jpg'
+import vans from '../components/images/oldskool.jpg'
 const sneakers = [
   {
     sneakerName: "Nike Air Max 90",
     price: "$120",
-    image: "nike_air_max_90.jpg"
+    src: nike
   },
   {
     sneakerName: "Adidas Superstar",
     price: "$80",
-    image: "adidas_superstar.jpg"
+    src: adidas
   },
   {
     sneakerName: "Asics Japan",
     price: "$120",
-    image: "nike_sb_dunk_low.jpg"
+    src: asics
   },
   {
     sneakerName: "New Balance 574",
     price: "$90",
-    image: "new_balance_574.jpg"
+    src: newbalance
   },
   {
     sneakerName: "Vans Old Skool",
     price: "$75",
-    image: "vans_old_skool.jpg"
+    src: vans
   }
 ]
 

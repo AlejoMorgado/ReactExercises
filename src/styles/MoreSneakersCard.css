@@ -1,0 +1,10 @@
+.moreSneakersContainer {
+  display: flex;
+  
+}
+.sneakerRotation{
+  border-radius: 1rem;
+  width: 33%;
+  background-color: #51BF83;
+  margin-left: 10px;
+}

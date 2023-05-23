@@ -1,13 +1,19 @@
 .cardWrapper {
-  background-image: linear-gradient(
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 40%;
+  height: 100%;
+  border-radius: 1rem;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.514);
+    /* background-image: linear-gradient(
     to right,
     #fb9039,
     #fda85d,
     #febf81,
     #ffd4a8,
     #ffe9d0
-  );
-  width: 40vw;
-  height: 80vh;
-  border-radius: 1rem;
+  ); */
 }

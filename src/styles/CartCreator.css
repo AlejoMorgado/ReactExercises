@@ -1,0 +1,25 @@
+.cartWrapper {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  padding: 15px;
+  margin: 10px;
+}
+
+.cartWrapper div {
+  margin-bottom: 10px;
+}
+
+.cartWrapper p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.cartWrapper p:first-child {
+  font-weight: bold;
+}
+
+.cartWrapper p:last-child {
+  color: #888;
+}

@@ -1,10 +1,10 @@
 import React from 'react'
-
-const LoginUser = () => {
+import '../../styles/inputs.css'
+const LoginUser = ({content}) => {
   return (
-    <div>
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required/>
+    <div className='boxes'>
+      <label htmlFor="username">Username:</label>
+      <input className='input' type="text" id="username" name="username" required placeholder={content}/>
     </div>
   )
 }

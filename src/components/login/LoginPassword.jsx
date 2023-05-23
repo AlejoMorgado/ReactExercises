@@ -1,10 +1,10 @@
 import React from 'react'
-
+import '../../styles/inputs.css'
 const LoginPassword = () => {
   return (
-    <div>
-      <label for="password">Password:</label>
-      <input type="text" id="password" name="password" required/>
+    <div className='boxes'>
+      <label htmlFor="password">Password:</label>
+      <input className='input' type="text" id="password" name="password" required/>
     </div>
   )
 }
